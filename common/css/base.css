@@ -1,0 +1,49 @@
+body,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,a,span,tel,address,form,label,input,
+header,footer,section,nav,aside,figure,figcaption,article,hgroup,dialog,menu,nav{
+	margin:0;
+	padding: 0;
+	-webkit-tap-highlight-color:transparent;
+	-moz-tap-highlight-color:transparent;
+	-ms-tap-highlight-color:transparent;
+	-o-tap-highlight-color:transparent;
+	-moz-tap-highlight-color:transparent;
+	tap-highlight-color:transparent;
+}
+ul,ol{
+	list-style: none;
+}
+ul,li,form,label,p,ol,ul,li,h1,h2,h3,h4,h5,h6,
+header,footer,section,nav,aside,figure,figcaption,article,hgroup,dialog,nav,menu{
+	display: block;
+/*h1,h2,h3,h4,h5,h6{
+	font-weight:normal;
+	font-size: 100%;*/
+	/*子元素继承父元素的字号,由于标题标签比较特殊,不能继承父复盒子的字号,加上font-size:100%就可以继承*/
+}
+p,h1,h2,h3,h4,h5,h6,dl,dt,dd,ol,ul,li{
+	display: block;
+}
+img{
+	/*解决3px留白问题*/
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+.clearfix:after{
+		height: 0;
+		line-height: 0;
+		content: "";
+		visibility: hidden;
+		clear: both;
+		display: block;
+}
+body{
+	font-size: 16px;
+}
+.ellipsis{
+	white-space:nowrap;/*空白不换行*/
+	overflow: hidden;/*溢出隐藏*/
+	text-overflow: ellipsis;/*显示省略号*/
+}
+/*------首页样式----------*/
