@@ -1,0 +1,242 @@
+body{
+	background: #fff;
+}
+.container{
+	max-width: 1030px;
+    min-width: 270px;
+    padding:20px 15px 15px;
+    margin:0 auto 40px;
+}
+.container .main{
+	width:100%;
+	margin-top: 7px;
+}
+.container .main div{
+	font-size: 16px;
+	line-height: 36px;
+	color: #000000;
+	text-align: center;
+}
+.container .main div h4{
+	font-size: 18px;
+	line-height: 50px;
+	font-weight: bold;
+	color: #fa9634;
+}
+.container .main div h4 span{
+	font: 16px/50px;
+	font-weight: normal;
+	color: #222;
+}
+.container .main div p{
+    text-indent: 32px;
+}
+.container .main div p span{
+    font-weight: bold;
+}
+.container .main div h5 {
+    font-size: 16px;
+    color: #222222;
+    font-weight: bold;
+}
+.container .main div h6 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.container .main div span{
+	font-size: 22px;
+	font-weight: bold;
+	display: inline-block;
+	text-indent: 0;
+}
+.container .main div p span:not(:first-of-type){
+	padding-left: 40px;
+}
+.container .main div img{
+	padding-top:32px;
+    padding-bottom:70px;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.iw_poi_title {
+	color: #CC5522;
+	font-size: 14px;
+	font-weight: bold;
+	overflow: hidden;
+	padding-right: 13px;
+	white-space: nowrap
+}
+.iw_poi_content {
+	font: 12px arial, sans-serif;
+	overflow: visible;
+	padding-top: 4px;
+	white-space: -moz-pre-wrap;
+	word-wrap: break-word
+}
+#dituContent {
+	margin-bottom: 40px;
+}
+.aspect {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	right: 5%;
+	top: 10%;
+	max-width: 150px;
+	max-height: 150px;
+	z-index: 222;
+}
+.aspect img {
+	display: block;
+	width: 100%;
+}
+.map {
+	max-width: 1030px;
+	margin: 0 auto;
+	position: relative;
+	max-height: 500px;
+	padding: 0 15px;
+	box-sizing: border-box;
+	margin-bottom: 30px;
+}
+.map {
+	max-width: 1030px;
+	margin: 0 auto 20px;
+	max-height: 500px;
+	padding: 0 15px;
+	box-sizing: border-box;
+	margin-bottom: 30px;
+}
+#dituContent {
+	height: 500px;
+}
+@media screen and (max-width:380px){
+	.container .main div span{
+		padding: 0 !important;
+	    display: block;
+	    line-height: 30px;
+	    margin: 0;
+	}
+	.container .main div p span{
+		display: block;
+		padding: 0;
+	}
+}
+@media screen and (max-width: 1020px){
+	.container .submenu  ul li:hover{
+	    border-bottom-color: #fff;
+	}
+}
+@media screen and (min-width: 1001px){
+	.container .main div p{
+	    text-indent: 0px !important;
+	}
+}
+@media screen and (min-width:768px) and (max-width:1000px){
+	.container{
+		padding: 0 15px;
+	}
+}
+@media screen and (max-width:767px){
+	.container{
+		padding: 0 15px;
+    	margin:0 auto 40px;
+	}
+	.container .submenu{
+		width: 100%;
+		padding-bottom: 10px;
+	}
+	.container .submenu ul{
+		border: none;
+	}
+	.container .submenu ul li{
+		width:25%;
+		float: left;
+		background-position: center 10px !important;
+		text-align: center;
+	}
+	.container .submenu ul li a{
+		line-height: 50px;
+		font-size: 20px;
+		padding-top: 50px;
+		text-indent: 0 !important;
+	}
+	.container .main{
+		width: 100%;
+	}
+	.container .main div{
+		padding-left: 0;
+	}
+}
+@media screen and (max-width:481px){
+	.container .submenu ul li a{
+		font-size: 16px;
+		line-height: 40px;
+	}
+	.container .submenu ul li a span{
+		display: none;
+	}
+	.if{
+		margin-bottom:80px;
+	}
+	#up{
+		display: none !important;
+	}
+}
+@media screen and (max-width:1050px){
+	.container .submenu ul li a{
+		width: 90%;
+	}
+	.container .main div h4{
+	    font-size:1.1em;
+	    line-height:50px;
+	    font-weight: bold;
+	}
+}
+@media only screen and (max-width:600px) {
+	.mains p:nth-of-type(2),
+	.mains p:nth-of-type(3) {
+		flex-wrap: wrap;
+	}
+	.mains p span {
+		width: 50%;
+		line-height: 37px;
+	}
+	.mains p span:first-of-type {
+		text-align: center;
+	}
+	.mains p span:last-of-type {
+		text-align: center;
+		width: 100%;
+	}
+	#dituContent {
+		height: 400px;
+	}
+	.mains p {
+		text-align: center;
+		font-size: 1.8em;
+		color: #222;
+		font-weight: normal;
+	}
+}
+
+@media only screen and (max-width:480px) {
+	.mains p:nth-of-type(2),
+	.mains p:nth-of-type(3) {
+		flex-wrap: wrap;
+	}
+	.mains p span {
+		width: 100%;
+		line-height: 37px;
+	}
+	#dituContent {
+		height: 350px;
+	}
+	.map {
+		padding-bottom:0;
+	}
+	.mains p span:first-of-type {
+		text-align: center;
+	}
