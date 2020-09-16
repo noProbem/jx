@@ -1,0 +1,178 @@
+.main
+.main .list{
+    padding-top: 5%;
+}
+.main .list li{
+    width:33.3%;
+    text-align: center;
+    float:left;
+}
+.main .list li a{
+    display: block;
+    height: 100%;
+    cursor: url("../images/cursor.png"),auto !important;
+    position: relative;
+}
+.main .list li a > p{
+    font-size: 18px;
+    color: #fa9634;
+    padding: 0 5px;
+}
+.main .list li a > .point{
+	display: block;
+    width: 0;
+    height: 0;
+    border-left: 9px solid transparent;
+    border-top: 9px solid #fa9634;
+    border-right: 9px solid transparent;
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+}
+.main .list li:nth-of-type(5) a > .point{
+	top: 30px;
+    transform: translateX(-50%) rotate(180deg);
+}
+.main .list li a h2{
+    padding-top:37%;
+    font-weight: normal;
+}
+.main .list li:nth-of-type(2n+1){
+    background:#f7f7f7;
+}
+
+.main .list li a{
+    display: block;
+    overflow: hidden;
+}
+.main .list li a img{
+    display: block;
+    min-width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    transition: .5s;
+}
+.main .list li a:hover img{
+    transform: scale(1.2);
+}
+.main .list li a > h2{
+    color: #222;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.main .list li a .mask{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: 1s;
+}
+.main .list li:first-of-type a .mask{
+    background:#fa7c70;
+}
+.main .list li:nth-of-type(3) a .mask{
+    background:#236480;
+}
+.main .list li:nth-of-type(5) a .mask{
+    background:#71b8b0;
+}
+.main .list li .text-middle{
+	padding: 0;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.main .list li a .mask p{
+    color: #fffcff;
+}
+.main .list li a .mask p{
+    font-size: 18px;
+}
+.main .list li a:hover .mask{
+    opacity: 1;
+}
+@media (max-width: 1001px){
+    .container .main div p{
+        text-indent: 0;
+    }
+    .main .list li a .mask p{
+        font-size: 16px;
+    }
+}
+@media (max-width:992px){
+    .main .list li a h2{
+        font-size: 20px;
+    }
+}
+@media (max-width:900px) and (min-width:885px){
+    .main .list li a .mask p:first-of-type{
+        font-size: 14px;
+    }
+}
+@media (min-width:885px){
+    .main .list1{
+        display: block;
+    }
+    .main .list2{
+        display: none;
+    }
+}
+@media (max-width:885px){
+    .main .list1{
+        display: none;
+    }
+    .main .list2{
+        display: block;
+    }
+    .main .list li a .mask{
+        display: none;
+    }
+    .main .list li a:hover img{
+        transform: scale(1.0);
+    }
+    .main .list li{
+        width:40%;
+    }
+    .main .list li:nth-of-type(3){
+        float: right;
+    }
+    .main .list li:first-of-type,
+    .main .list li:nth-of-type(4),
+    .main .list li:nth-of-type(5){
+         margin-left: 10%;
+    }
+    .main .list li:nth-of-type(2),
+    .main .list li:nth-of-type(3),
+    .main .list li:last-of-type{
+        margin-right: 10%;
+    }
+    .main .list li a .mask p:last-of-type{
+        display:block;
+    }
+}
+@media (max-width:490px){
+    .container .main div p:last-of-type{
+        margin-bottom: 0;
+    }
+    .main .list li a h2{
+        font-size: 16px;
+    }
+    .main .list li a > p{
+        font-size: 12px;
+    }
+}
+@media (max-width:420px){
+    .main .list li a h2{
+        padding-top: 27%;
+    }
+}

@@ -1,0 +1,12 @@
+.main div h2{
+    color: #222;
+    font-weight: normal;
+    margin: 15px 0;
+}
+.main div h4{
+    text-indent: 32px;
+}
+.container .main div p{
+    text-indent:32px !important;
+    margin-top: 10px;
+}

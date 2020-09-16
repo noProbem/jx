@@ -1,0 +1,31 @@
+.container .main div h1{
+    font-size:28px;
+    color: #222;
+    font-weight: normal;
+    text-align: center;
+}
+.container .main div h4{
+    text-indent: 0;
+}
+.container .main div h5{
+    font-size: 16px;
+    line-height: 50px;
+    font-weight: bold;
+    color: #fa9634;
+    text-indent: 32px;
+}
+.container .main div h5 span{
+    font-weight: normal;
+    color: #222;
+}
+.main > div >p span{
+    font-weight: bold;
+    color: #fa9634;
+}
+.course ul li{
+    width:50%;
+}
+.course ul li a p{
+    border-radius: 50%;
+    background: #ccc;
+}

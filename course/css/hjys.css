@@ -1,0 +1,243 @@
+body{
+	background: #fff;
+}
+.container{
+	max-width: 1030px;
+    min-width: 270px;
+    padding:40px 15px 15px;
+    margin:0 auto 40px;
+}
+.container .submenu{
+	width: 26.6%;
+	float: left;
+}
+.container .submenu ul{
+	padding-right: 17px;
+    border-right: 1px solid #bababa;
+}
+.container .submenu ul li{
+	line-height: 77px;
+	border-bottom:4px solid transparent ;
+}
+.container .submenu ul li:hover{
+	border-bottom:4px solid #fa9634;
+}
+.container .submenu ul li.active{
+	border-bottom:4px solid #fa9634;
+}
+.container .submenu ul li a{
+	display:block;
+	font-size: 1.375em;
+	color: #222;
+	line-height: 77px;
+	text-indent:70px;
+}
+.container .submenu ul li:first-of-type{
+	background:url(../images/left_link_02.jpg) no-repeat 20px center;
+}
+.container .submenu ul li:first-of-type:hover,
+.container .submenu ul li:first-of-type.active{
+	background:url(../images/left_link_03.jpg) no-repeat 20px center;
+}
+.container .submenu ul li:nth-of-type(2){
+	background:url(../images/left_link_06.jpg) no-repeat 20px center;
+}
+.container .submenu ul li:nth-of-type(2):hover,
+.container .submenu ul li:nth-of-type(2).active{
+	background:url(../images/left_link_07.jpg) no-repeat 20px center;
+}
+.container .submenu ul li:nth-of-type(3){
+	background:url(../images/left_link_08.jpg) no-repeat 20px center;
+}
+.container .submenu ul li:nth-of-type(3):hover,
+.container .submenu ul li:nth-of-type(3).active{
+	background:url(../images/left_link_09.jpg) no-repeat 20px center;
+}
+.container .submenu ul li:nth-of-type(4){
+	background:url(../images/left_link_12.jpg) no-repeat 20px center;
+}
+.container .submenu ul li:nth-of-type(4):hover,
+.container .submenu ul li:nth-of-type(4).active{
+	background:url(../images/left_link_13.jpg) no-repeat 20px center;
+}
+.container .submenu ul li:nth-of-type(5){
+	background:url(../images/left_link_14.jpg) no-repeat 20px center;
+}
+.container .submenu ul li:nth-of-type(5):hover,
+.container .submenu ul li:nth-of-type(5).active{
+	background:url(../images/left_link_15.jpg) no-repeat 20px center;
+}
+.container .submenu ul li:nth-of-type(6){
+	background:url(../images/left_link_18.jpg) no-repeat 20px center;
+}
+.container .submenu ul li:nth-of-type(6):hover,
+.container .submenu ul li:nth-of-type(6).active{
+	background:url(../images/left_link_19.jpg) no-repeat 20px center;
+}
+.container .main{
+	width: 73.4%;
+	float: left;
+}
+.container .main div{
+	padding-left: 48px;
+	font-size: 16px;
+	line-height: 30px;
+	color: #000000;
+}
+.container .main div h4{
+	font-size: 18px;
+	line-height: 50px;
+	font-weight: bold;
+	color: #fa9634;
+}
+.container .main div p{
+    text-indent: 32px;
+}
+.container .main div img{
+	padding-top: 17px;
+    padding-bottom: 32px;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+@media screen and (max-width: 1020px){
+	.container .submenu  ul li:hover{
+	    border-bottom-color: #fff;
+	}
+}
+@media screen and (max-width:1001px){
+	.container .submenu ul li:first-of-type:hover{
+	background:url(../images/left_link_02.jpg) no-repeat 20px center;
+	}
+	.container .submenu ul li:first-of-type.active{
+		background:url(../images/left_link_03.jpg) no-repeat 20px center;
+	}
+	.container .submenu ul li:nth-of-type(2):hover{
+		background:url(../images/left_link_06.jpg) no-repeat 20px center;
+	}
+	.container .submenu ul li:nth-of-type(2).active{
+		background:url(../images/left_link_07.jpg) no-repeat 20px center;
+	}
+	.container .submenu ul li:nth-of-type(3):hover{
+		background:url(../images/left_link_08.jpg) no-repeat 20px center;
+	}
+	.container .submenu ul li:nth-of-type(3).active{
+		background:url(../images/left_link_09.jpg) no-repeat 20px center;
+	}
+	.container .submenu ul li:nth-of-type(4):hover{
+		background:url(../images/left_link_10.jpg) no-repeat 20px center;
+	}
+	.container .submenu ul li:nth-of-type(4).active{
+		background:url(../images/left_link_11.jpg) no-repeat 20px center;
+	}
+	.container .submenu ul li:nth-of-type(5):hover{
+		background:url(../images/left_link_12.jpg) no-repeat 20px center;
+	}
+	.container .submenu ul li:nth-of-type(5).active{
+		background:url(../images/left_link_13.jpg) no-repeat 20px center;
+	}
+	.container .submenu ul li:nth-of-type(6):hover{
+		background:url(../images/left_link_14.jpg) no-repeat 20px center;
+	}
+	.container .submenu ul li:nth-of-type(6).active{
+		background:url(../images/left_link_15.jpg) no-repeat 20px center;
+	}
+	.container .submenu ul li:nth-of-type(7):hover{
+		background:url(../images/left_link_16.jpg) no-repeat 20px center;
+	}
+	.container .submenu ul li:nth-of-type(7).active{
+		background:url(../images/left_link_17.jpg) no-repeat 20px center;
+	}
+	.container .submenu ul li:nth-of-type(8):hover{
+		background:url(../images/left_link_18.jpg) no-repeat 20px center;
+	}
+	.container .submenu ul li:nth-of-type(8).active{
+		background:url(../images/left_link_19.jpg) no-repeat 20px center;
+	}
+}
+@media screen and (min-width: 1001px){
+	.container .main div p{
+	    text-indent: 0px !important;
+	}
+	.container{
+	    padding:40px 15px 15px;
+	}
+}
+@media screen and (min-width:768px) and (max-width:1000px){
+	.container{
+		padding: 0 15px;
+		margin:40px 0;
+	}
+	.container .submenu{
+		width: 29%;
+	}
+	.container .submenu ul li a {
+		line-height: 67px;
+	}
+	.container .main{
+		width: 71%;
+	}
+}
+@media screen and (max-width:767px){
+	.container{
+		padding: 0 15px;
+    	margin: 20px auto 40px;
+	}
+	.container .submenu{
+		width: 100%;
+		padding-bottom: 10px;
+	}
+	.container .submenu ul{
+		border: none;
+		padding-right: 0;
+	}
+	.container .submenu ul li{
+		width:33.333333%;
+		float: left;
+		background-position: center 10px !important;
+		text-align: center;
+	}
+	.container .submenu ul li a{
+		line-height: 50px;
+		font-size: 20px;
+		padding-top: 50px;
+		text-indent: 0 !important;
+	}
+	.container .main{
+		width: 100%;
+	}
+	.container .main div{
+		padding-left: 0;
+	}
+}
+@media screen and (max-width:481px){
+	.container .submenu ul li a{
+		font-size: 16px;
+		line-height: 40px;
+	}
+	.container .submenu ul li a span{
+		display: none;
+	}
+	.container{
+		font-family: simsun;
+	}
+	.container .submenu ul li a {
+		font-size: 16px;
+		line-height: 40px;
+		font-family: ‘黑体’;
+	}
+	.container .main div h4{
+		font-size: 16px;
+		line-height: 40px;
+		padding-top: 10px;
+	}
+	.container .main div{
+		font-size: 14px;
+	}
+	.container .main div p:last-of-type{
+		margin-bottom:35px;
+	}
+	#up{
+		display: none !important;
+	}
+}
